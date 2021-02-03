@@ -1,4 +1,73 @@
+html {
+	/* height: 100%; */
+	height: auto;
+}
+/* *{
+	border: 1px solid red;
+} */
+header {
+	display: inline-block;
+}
+
 body {
-	background-color: grey;
+	background: linear-gradient(to left bottom, black, green);
+	background-size: 100% 100%;
 	color: white;
+	margin-left: 25%;
+}
+
+eren {
+	float: left;
+	box-shadow: 2px;
+}
+
+hr {
+	border-color: rgb(139, 139, 139);
+}
+
+#profile-image {
+	position: relative;
+	z-index: 1;
+}
+
+#profile-image>img {
+	width: 280px;
+	z-index: 2;
+}
+
+#profile-image>img:first-child {
+	position: absolute;
+}
+
+#eren:hover {
+	opacity: 0;
+}
+
+.page {
+	width: 900px;
+	height: 1000px;
+	background-color: rgb(34, 33, 33);
+	background-repeat: no-repeat;
+	background-size: auto;
+	background-position: center;
+	border: black ridge 1px;
+	text-align: left;
+	margin-top: 3%;
+	color: white;
+}
+
+p {
+	color: white;
+	text-align: left;
+	margin-left: 5%;
+}
+
+.container {
+	width: 500px;
+	background-color: rgb(112, 111, 111);
+	margin-left: 8%;
+}
+
+.history {
+	margin-left: 5%;
 }
