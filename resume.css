@@ -2,11 +2,35 @@ html {
 	/* height: 100%; */
 	height: auto;
 }
+
 /* *{
 	border: 1px solid red;
 } */
+
 header {
 	display: inline-block;
+}
+header .header-top-row{
+	display:flex;
+}
+
+.profile-image-container{
+	display:flex;
+}
+.profile-image-titles{
+	display:flex;
+	flex-direction: column;
+	
+}
+
+header .header-top-right {
+	display:flex;
+	margin-left: 300px;
+}
+
+header .header-bottom-row {
+	display: flex 3;
+	margin-right: 4%;
 }
 
 body {
@@ -14,11 +38,6 @@ body {
 	background-size: 100% 100%;
 	color: white;
 	margin-left: 25%;
-}
-
-eren {
-	float: left;
-	box-shadow: 2px;
 }
 
 hr {
@@ -31,7 +50,7 @@ hr {
 }
 
 #profile-image>img {
-	width: 280px;
+	width: 150px;
 	z-index: 2;
 }
 
@@ -70,4 +89,22 @@ p {
 
 .history {
 	margin-left: 5%;
+}
+
+.progress_container {
+	width: 250px;
+	height: 20px;
+	margin: 0;
+	border-radius: 0px;	
+}
+
+.main-body{
+	display:flex;
+}
+.main-body-left{
+flex:3;
+}
+.main-body-right p{
+	flex:1;
+	text-align:right;
 }

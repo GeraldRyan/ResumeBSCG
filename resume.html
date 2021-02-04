@@ -1,42 +1,137 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-  <link rel="stylesheet" type="text/css" href="resume.css">
-</head>
-<div class="page";>
-<body>
-  <header>
-     <!-- <h1> -->
-       <div id="profile-image">
-         <img id="eren" src="images\soldier.png" target="_"></a> <!--/h1> -->
-         <img id="secret" src="images/patch.png" alt="Undercover Eren"> &lt EREN JAEGER
-       </div>
-    <h3>Titan Slayer</h3>
-    <p>
-      <strong>Name:</strong> Eren Jaegar;<br>
-      <strong>DOB:</strong> 2-18-1998;<br>
-      <strong>Address:</strong>Shiganshima District;<br>
-      <strong>Phone:</strong>123-456-7890;<br>
-      <strong>Email:</strong>ih8titans@gmail.com;<br>
-      <strong>Website:</strong> <a href="https://attackontitan.fandom.com/wiki/Eren_Jaeger_(Anime)" target="_">Eren Jaeger.com</a><br>
-    </p>
-    <p>Eren Jaeger is a former member of the Survey Corps. He is the main protagonist of Attack on Titan. He lived in Shiganshina District with his parents and adopted sister Mikasa Ackerman until the fall of Wall Maria, where he impotently witnessed his mother being eaten by a Titan. This event would lead to Eren's intense hatred towards the Titans as he swore to wipe all of them off the face of the Earth.</p>
-  </header>
-  <hr><br><br><br>
-  <section class="mainbody">
-    <h2 class="container">Employment</h2>
-    <h3 class="history">Place of employment</h3>
-    <p>Employment History to be listed here.</p>
-  </section><br><br>
-	<section>
-    <h2 class="container">Education</h2>
-    <h3 class="history">Educational institution</h3>
-    <p>Education details to be listed here.</p>
-    
-  </section><br><br>
-</div>
-</body>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="resume.css">
+  </head>
+  <body>
+    <div class="page">
+      <header>
+
+        <div class="header-top-row"> <!--flexbox for profile pic and name/desc.-->
+          <div class="header-top-left">
+            <div style="border: 1px solid red" class="profile-image-container">
+              <div id="profile-image">
+                <img id="eren" src="images\soldier.png" target="_">
+                <img id="secret" src="images/patch.png" alt="Undercover Eren">
+              </div>
+              <div class="profile-titles">
+                <h2 style="display:inline">EREN JAEGER</h2><br>
+                <h3 style="display:inline">Soldier, 104th Survey Corps</h3>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="header-top-right erenfax">
+            <p>
+              <strong>Name:</strong> Eren Jaegar;<br>
+              <strong>DOB:</strong> 2-18-1998;<br>
+              <strong>Address:</strong>Shiganshima District;<br>
+              <strong>Phone:</strong>123-456-7890;<br>
+              <strong>Email:</strong>ih8titans@gmail.com;<br>
+              <strong>Website:</strong> <a
+                href="https://attackontitan.fandom.com/wiki/Eren_Jaeger_(Anime)"
+                target="_">Eren Jaeger.com</a><br>
+            </p>
+          </div>
+        </div> <!-- END header-top-row -->
+
+        <div class="header-bottom-row erendes">
+          <p>Eren Jaeger is a former member of the Survey Corps. He is the main
+            protagonist of Attack on Titan. He lived in Shiganshina District
+            with his parents and adopted sister Mikasa Ackerman until the fall
+            of Wall Maria, where he impotently witnessed his mother being eaten
+            by a Titan. This event would lead to Eren's intense hatred towards
+            the Titans as he swore to wipe all of them off the face of the
+            Earth.
+          </p>
+        </div>
+
+
+      </header>
+
+
+
+
+
+      <div class="main-body">
+
+        <div class="main-body-left">
+          <hr><br><br><br>
+          <section class="employment">
+            <h2 class="container">Employment</h2>
+            <h3 class="history">Place of employment</h3>
+            <p>Employment History to be listed here.</p>
+          </section><br><br>
+          <section class="education">
+            <h2 class="container">Education</h2>
+            <h3 class="history">Educational institution</h3>
+            <p>Education details to be listed here.</p>
+
+          </section><br><br>
+
+
+        </div>
+
+
+        <div class="main-body-right">
+          <section class="programming-skills">
+
+            <h1>Programming Skills</h1>
+            <h3>Wordpress</h3>
+            <progress class="progress_container" value="90" max="100"></progress><br>
+            <h3>PHP</h3>
+            <progress class="progress_container" value="80" max="100"></progress><br>
+            <h3>HTML</h3>
+            <progress class="progress_container" value="93" max="100"></progress><br>
+            <h3>CSS</h3>
+            <progress class="progress_container" value="80" max="100"></progress><br>
+            <h3>MySQL</h3>
+            <progress class="progress_container" value="70" max="100"></progress><br>
+          </section>
+          <section class="programming-skills">
+
+            <h1>Graphic Skills</h1>
+            <h3>Wordpress</h3>
+            <progress class="progress_container" value="90" max="100"></progress><br>
+            <h3>PHP</h3>
+            <progress class="progress_container" value="80" max="100"></progress><br>
+            <h3>HTML</h3>
+            <progress class="progress_container" value="93" max="100"></progress><br>
+            <h3>CSS</h3>
+            <progress class="progress_container" value="80" max="100"></progress><br>
+            <h3>MySQL</h3>
+            <progress class="progress_container" value="70" max="100"></progress><br>
+          </section>
+          <section class="programming-skills">
+
+            <h1>Language Skills</h1>
+            <h3>Wordpress</h3>
+            <progress class="progress_container" value="90" max="100"></progress><br>
+            <h3>PHP</h3>
+            <progress class="progress_container" value="80" max="100"></progress><br>
+            <h3>HTML</h3>
+            <progress class="progress_container" value="93" max="100"></progress><br>
+            <h3>CSS</h3>
+            <progress class="progress_container" value="80" max="100"></progress><br>
+            <h3>MySQL</h3>
+            <progress class="progress_container" value="70" max="100"></progress><br>
+          </section>
+
+        </div>
+
+
+      </div> <!-- END main-body -->
+
+
+      <footer><hr>Copyright Anime Uproar 2021</footer>
+
+
+
+
+    </div> <!-- END class page -->
+  </body>
 </html>
