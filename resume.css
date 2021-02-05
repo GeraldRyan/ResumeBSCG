@@ -207,20 +207,22 @@ body .past-job {
 body .old-job-title {
 	/*border: 1px solid blue;*/
 		display: flex 2;
-	
-
+		min-width:20%
 }
 body .old-job-title-school {
 	/*border: 1px solid blue;*/
 		display: flex 2;
 		font-size: 12px;
+		min-width:20%
 	
 
 }
 
 body .old-job-dates {
 	font-size: 10px;
+	min-width: 10%
 	/*border: 1px solid blue;
+	
 */
 }
 
