@@ -81,7 +81,7 @@ hr {
 /* This is for the center grey page*/
 .page {
 	width: 900px;
-	height: 1500px;
+	height: 1100px;
 	background-color: rgb(34, 33, 33);
 	background-repeat: no-repeat;
 	background-size: auto;
@@ -196,7 +196,40 @@ flex:3;
 	border-radius: 50%;
 	display: inline-block;
 }
+body .past-job {
+	/*border: 1px solid red;*/
+	padding: 10px;
+	display: flex;
+	font-size: 15px;
 
+}
+
+body .old-job-title {
+	/*border: 1px solid blue;*/
+		display: flex 2;
+	
+
+}
+body .old-job-title-school {
+	/*border: 1px solid blue;*/
+		display: flex 2;
+		font-size: 12px;
+	
+
+}
+
+body .old-job-dates {
+	font-size: 10px;
+	/*border: 1px solid blue;
+*/
+}
+
+body .old-job-description {
+	/*border: 1px solid blue;
+*/
+}
+
+/*
 body .past-job-passages {
 	border: 2px solid rgb(187, 187, 187);
 	width: 95%;
@@ -221,3 +254,6 @@ body .old-job-dates {
 body .old-job-description {
 	display: block;
 }
+
+
+*/
