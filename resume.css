@@ -196,26 +196,27 @@ flex:3;
 	display: inline-block;
 }
 
-body .past-job {
-	border: 2px solid red;
-	padding: 10px;
-	display: flex;
-
+body .past-job-passages {
+	border: 2px solid rgb(187, 187, 187);
+	width: 95%;
+	margin: auto;
 }
 
 body .old-job-title {
-	border: 2px solid blue;
-	display: flex 2;
-	
-
+	flex-direction: column;
+	display: inline-flex;
+	width: 40%;
+	margin-left: 2%;
 }
 
 body .old-job-dates {
-	border: 2px solid blue;
-
+	display: inline-flex;
+	margin:auto;
+	width: 47%;
+	justify-content: right;
+	font-size: larger;
 }
 
 body .old-job-description {
-	border: 2px solid blue;
-
+	display: block;
 }
