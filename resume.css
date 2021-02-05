@@ -78,9 +78,10 @@ hr {
 	opacity: 0;
 }
 
+/* This is for the center grey page*/
 .page {
 	width: 900px;
-	height: 1000px;
+	height: 1500px;
 	background-color: rgb(34, 33, 33);
 	background-repeat: no-repeat;
 	background-size: auto;
